@@ -24,7 +24,7 @@ export const Input: React.FC<Props> = ({
         value={value}
         name={name}
         placeholder={placeholder}
-        className="relative bg-transparent ring-0 outline-none border border-neutral-500 text-white placeholder-violet-700 text-sm rounded-lg focus:ring-violet-500 placeholder-opacity-60 focus:border-violet-500 block w-full p-2.5"
+        className="w-full bg-transparent text-white font-mono border-2 border-zinc-400 outline-none duration-300 placeholder:text-zinc-100 placeholder:opacity-50 rounded-full px-4 py-2 focus:border-rose-400"
         type={type}
         onChange={handleChangeInput}
       />

@@ -80,7 +80,7 @@ const KanbanBoard: React.FC<Props> = ({ boardId }) => {
         onDragEnd={onDragEnd}
         onDragOver={onDragOver}
       >
-        <div className="mx-auto flex gap-4">
+        <div className="mx-auto flex flex-col sm:flex-row gap-4">
           <SortableContext items={columnsId}>
             {columns.map((col) => (
               <ColumnContainer
