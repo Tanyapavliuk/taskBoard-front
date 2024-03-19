@@ -1,6 +1,11 @@
 # Task Board
 
-<a href="https://task-board-omega.vercel.app/" target='_blank'><img src="https://i.ibb.co/B4gqQzJ/image.png" alt="image"></a>
+<a href="https://task-board-omega.vercel.app/" target='_blank'><img src="https://i.ibb.co/qrx9XSD/image.png" alt="image"></a>
+
+### The backend: 
+ - Code is here - https://github.com/Tanyapavliuk/taskBoard-api
+ - Hosted here - https://taskboard-api-l42f.onrender.com
+
 
 ### Kanban style board:
 - A user can create a board by clicking the "Add" button and filling out the form.
@@ -13,6 +18,7 @@
 ~~~ 
 Functionality will be supplemented...
 ~~~
+
 
 ## 📃 Technologies
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
