@@ -31,6 +31,16 @@ export const boardApi = createApi({
       },
       transformResponse: (response: { data: Board }) => response.data,
     }),
+    updateBoard: build.mutation<Board, {id:string, body:Partial<Board>}>({
+      query({id, body}) {
+        return {
+          url: `boards/${id}`,
+          method: "PATCH",
+          body,
+        };
+      },
+      transformResponse: (response: { data: Board }) => response.data,
+    }),
     deleteBoard: build.mutation<{message:string},string>({
       query(id) {
         return {
@@ -79,5 +89,6 @@ export const {
   useAddTaskMutation,
   useUpdateTaskMutation,
   useDeleteTaskMutation,
-  useDeleteBoardMutation
+  useDeleteBoardMutation, 
+  useUpdateBoardMutation
 } = boardApi;
